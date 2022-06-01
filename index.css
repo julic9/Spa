@@ -1,0 +1,43 @@
+body{
+    font-family: 'Dancing Script', cursive;
+}
+.greenlife{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 15px 20px 15px 20px;
+
+}
+h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+.header{
+    background-image: url(estancia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:local;
+    width: 100%;
+    height: 400px;
+}
+.spa{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.imgalmuerzos{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.spa img{
+    width: 400px;
+    height: auto;
+}
+.imgalmuerzos img{
+    width: 400px;
+    height: auto;
+}
